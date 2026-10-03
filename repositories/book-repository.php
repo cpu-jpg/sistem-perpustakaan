@@ -1,5 +1,9 @@
 <?php
 
+
+
+
+function getbooks() {
 $books = [
   [
     "id" => 1,
@@ -41,8 +45,14 @@ $books = [
     "stock" => 4,
     "authors" => ["Pramoedya Ananta Toer", "Sapardi Djoko Damono"],
   ],
-];
+];  
+return $books;
+}
 
+
+
+function getbook()
+{
 $book = [
   "id" => 5,
   "title" => "Antologi Rasa Nusantara",
@@ -53,3 +63,7 @@ $book = [
   "description" => "Kumpulan puisi dan cerita pendek dari berbagai penulis Nusantara.",
   "authors" => ["Pramoedya Ananta Toer", "Sapardi Djoko Damono"],
 ];
+
+
+return $book;
+}

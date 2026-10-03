@@ -45,7 +45,7 @@
     </header>
 
       <div class="app-content">
-        <form method="" action="">
+        <form method="get" action="../../actions/books/store.php">
           <div class="form-card" style="margin-bottom:20px;">
             <div class="form-section-title">Data Buku</div>
             <div class="form-group">
